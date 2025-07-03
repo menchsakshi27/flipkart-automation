@@ -36,3 +36,10 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+#Ignore ChromeDriver and other executables
+*.exe
+
+#Ignore logs and test ouutput
+*.log
+test-output/
